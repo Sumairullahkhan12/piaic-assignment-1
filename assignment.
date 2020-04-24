@@ -1,0 +1,23 @@
+print("Welcome to the simple calculator of PIAIC")
+print("Please entre the first number ?")
+num1=input("The first number is : ")
+print("Please entre the second number ?")
+num2=input("The second number is : ")
+
+print("What operation you want to perform ?")
+print("Press 'A' for Addition")
+print("Press 'S' for Subtraction")
+print("Press 'M' for Multiplication")
+print("Press 'D' for division")
+operation=input("The operation you want to perform is : ")
+
+if operation=="A":
+     print("The Addition of two numbers is = ", float(num1)+float(num2))
+elif operation=="S":
+     print("The Subtraction of two numbers is = ", float(num1)-float(num2))
+elif operation=="M":
+     print("The Multiplication of two numbers is = ", float(num1)*float(num2))
+elif operation=="D":
+     print("The Division of two numbers is = ", float(num1)/float(num2))
+else:
+     print("Please entre the right operation.")
